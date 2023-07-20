@@ -1,4 +1,4 @@
-
+const span = document.getElementById('span')
 function count() {
     let count = 0
     console.log('Hi');
