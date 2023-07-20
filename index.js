@@ -7,5 +7,5 @@ function count() {
     }
   span.innerText = count
 }
-count()
+
 
