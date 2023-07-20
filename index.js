@@ -1,5 +1,6 @@
 const span = document.getElementById('span')
-function count() {
+const button = document.getElementById('button')
+function countX() {
     let count = 0
     console.log('Hi');
     function mainFnc() {
@@ -8,4 +9,4 @@ function count() {
   span.innerText = count
 }
 
-
+button.addEventListener('click', countX)
