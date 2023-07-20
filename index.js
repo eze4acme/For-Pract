@@ -5,7 +5,7 @@ function count() {
     function mainFnc() {
         return count ++
     }
-  
+  span.innerText = count
 }
 count()
 
