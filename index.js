@@ -1,7 +1,7 @@
 const span = document.getElementById('span')
 console.log(span);
 const button = document.getElementById('button')
-function countX() {
+function count() {
     let count = 0;
     
 function mainFnc() {
@@ -11,4 +11,4 @@ function mainFnc() {
     main()
 }
 
-button.addEventListener('click', countX)
+button.addEventListener('click', count)
