@@ -8,7 +8,7 @@ function mainFnc() {
      return count = count + 1
     }
     span.innerHTML = count
-    mainFnc()
+    
 }
 
 button.addEventListener('click', countX)
