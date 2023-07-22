@@ -11,16 +11,16 @@ const button = document.getElementById('button')
 // return add
 // }
 // const count = counter()
-// function createCounter() {
-//   let count = 0; // Variable declared inside the closure function
+function createCounter() {
+  let count = 1; // Variable declared inside the closure function
 
-//   function increment() {
-//     count++;
-//     console.log(`Current count: ${count}`);
-//   }
+  function increment() {
+    span.innerHTML = count++;
+    console.log(`Current count: ${count}`);
+  }
 
-//   return increment;
-// }
+  return increment;
+}
 
 // Usage example:
 // const counter = createCounter();
@@ -29,7 +29,7 @@ const button = document.getElementById('button')
 // counter(); // Output: Current count: 2
 // counter(); // Output: Current count: 3
 
-// button.addEventListener('click', counter)
+button.addEventListener('click', createCounter())
 
 // function num() {
 //     let num = 45
@@ -47,16 +47,16 @@ const button = document.getElementById('button')
 
 
 
-function debounce() {
-    let timeId;
-return () => {
-    console.log(timeId);
-    clearTimeout(timeId)
-    console.log(timeId);
-     timeId = setTimeout(() => {
-    console.log('you cliked me');
-   }, 2000); 
-}
-}
+// function debounce() {
+//     let timeId;
+// return () => {
+//     console.log(timeId);
+//     clearTimeout(timeId)
+//     console.log(timeId);
+//      timeId = setTimeout(() => {
+//     console.log('you cliked me');
+//    }, 2000); 
+// }
+// }
 
- button.addEventListener('click', debounce())
+//  button.addEventListener('click', debounce())
