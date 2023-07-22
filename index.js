@@ -1,5 +1,5 @@
 const span = document.getElementById('span')
-console.log(span);
+
 const button = document.getElementById('button')
 function count() {
     let count = 0;
