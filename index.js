@@ -2,7 +2,7 @@ const span = document.getElementById('span')
 console.log(span);
 const button = document.getElementById('button')
 function countX() {
-    let count = 0
+    let count = 0;
     
 function mainFnc() {
      return count = count + 1
