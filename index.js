@@ -5,7 +5,7 @@ function countX() {
     let count = 0;
     
 function mainFnc() {
-     return count = count + 1
+     return count = count + 8
     }
     span.innerHTML = count
     main()
