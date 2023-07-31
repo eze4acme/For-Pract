@@ -31,19 +31,6 @@ function createCounter() {
 
 button.addEventListener('click', createCounter())
 
-// function num() {
-//     let num = 45
-//     console.log(num);
-//     function str() {
-//         console.log(`Hi ${num}`);
-//     }
-//     return str
-// }
-// const newb = num()
-// num()
-// num()
-// console.log(newb);
-// newb()
 
 
 
